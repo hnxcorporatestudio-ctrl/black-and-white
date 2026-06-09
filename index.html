@@ -1,2118 +1,776 @@
+
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>La Savane Gourmande</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black & White | Maquis Restaurant & Pizzeria à Bouaké</title>
+    <link rel="stylesheet" href="blackandwhite.css">
 
-    <!-- GOOGLE FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="and.css">
+    <meta name="description"
+        content="Black & White à Bouaké. Pizza au feu de bois, grillades, pierrade, glaces, spécialités africaines et européennes. Salles climatisées disponibles.">
 </head>
+
 <body>
 
-    <!-- LOADER -->
-    <div class="loader" id="loader">
-        <div class="loader-logo">
-            <span>BLACK</span>
-            <strong>AND WHITE</strong>
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+
+        <div class="logo">
+            <h1>BLACK & WHITE</h1>
         </div>
-    </div>
 
-    <!-- HEADER -->
-    <header class="hero">
+        <button id="hamburger-btn">
+            ☰
+        </button>
 
-        <div class="hero-overlay"></div>
+        <nav id="mobile-menu">
 
-        <nav class="navbar">
+            <ul>
 
-            <div class="logo">
-                <span>BLACK</span>
-                <strong>AND WHITE</strong>
+                <li><a href="#accueil">Accueil</a></li>
+
+                <li><a href="#specialites">Spécialités</a></li>
+
+                <li><a href="#galerie">Galerie</a></li>
+
+                <li><a href="#bar">Espace Bar</a></li>
+
+                <li><a href="#carte">Notre Carte</a></li>
+
+                <li><a href="#avis">Avis Clients</a></li>
+
+                <li><a href="#localisation">Localisation</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <div class="menu-gallery">
+
+                <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b" alt="Cocktail">
+
+                <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187" alt="Boisson">
+
+                <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd" alt="Bar">
+
             </div>
-
-            <button class="mobile-menu-btn" id="mobileMenuBtn">
-                ☰
-            </button>
 
         </nav>
 
-        <div class="hero-content">
-
-            <div class="hero-badge">
-            </div>
-
-            <h1>
-                L’Excellence de la Cuisine Africaine & Européenne depuis 1986
-            </h1>
-
-            <p>
-                Depuis plus de 40 ans, Black and White accueille familles, professionnels, hommes d’affaires et visiteurs dans un cadre élégant et raffiné. Découvrez une cuisine africaine et européenne préparée avec passion par des chefs expérimentés, un service de qualité et une ambiance unique au cœur de Bouaké.
-            </p>
-        </div>
-
     </header>
 
-    <!-- STICKY CATEGORY NAV -->
-    <section class="category-wrapper">
+    <!-- =========================
+         HERO PREMIUM
+    ========================== -->
 
-        <div class="category-scroll" id="categoryScroll">
+    <section id="accueil">
 
-            <button class="category-btn active" data-category="entrees">
-                Entrées
-            </button>
+        <div class="hero-overlay">
 
-            <button class="category-btn" data-category="les viandes">
-                Les viandes
-            </button>
+            <p class="subtitle">
+                Maquis Restaurant • Pizzeria • Bar
+            </p>
 
-            <button class="category-btn" data-category="les spécialités africaines">
-                les Spécialités Africaines
-            </button>
+            <h2>
+                BLACK <span>&</span> WHITE
+            </h2>
 
-            <button class="category-btn" data-category="les pizzas et les plats italiens">
-                les Pizzas et les plats Italiens
-            </button>
+            <p class="hero-description">
 
-            <button class="category-btn" data-category="accompagnements">
-                Accompagnements
-            </button>
+                Découvrez un cadre chaleureux à Bouaké pour partager
+                pizzas au feu de bois, grillades, pierrades,
+                glaces et spécialités africaines & européennes.
 
-            <button class="category-btn" data-category="les desserts maison">
-                Les desserts maison
-            </button>
+            </p>
 
-            <button class="category-btn" data-category="boissons">
-                Boissons
-            </button>
+            <div class="hero-buttons">
 
-            <button class="category-btn" data-category="bieres">
-                Bières
-            </button>
+                <a href="tel:+22505926080" class="btn-primary">
+                    Commander
+                </a>
 
-            <button class="category-btn" data-category="les vins de france">
-               Les Vins de France 
-            </button>
+                <a href="#contact" class="btn-secondary">
+                    Réserver
+                </a>
 
-            <button class="category-btn" data-category="les glaces">
-                Les glaces
-            </button>
+            </div>
 
-            <button class="category-btn" data-category="Le bar">
-                Le bar
-            </button>
+            <div class="hero-badges">
 
-            <button class="category-btn" data-category="formules">
-                Formules
-            </button>
+                <div>🍕 Pizza au Feu de Bois</div>
+
+                <div>🔥 Pierrade</div>
+
+                <div>🥩 Grillades</div>
+
+                <div>🍨 Glaces</div>
+
+                <div>❄️ Salle Climatisée</div>
+
+                <div>🌍 Cuisine Africaine & Européenne</div>
+
+            </div>
+
+            <div class="hero-stats">
+
+                <div>
+                    <strong>500+</strong>
+                    <span>Clients satisfaits</span>
+                </div>
+
+                <div>
+                    <strong>6j/7</strong>
+                    <span>Ouvert</span>
+                </div>
+
+                <div>
+                    <strong>100%</strong>
+                    <span>Convivialité</span>
+                </div>
+
+            </div>
 
         </div>
 
     </section>
 
-    <!-- MAIN -->
-    <main class="main-content">
+    <!-- =========================
+         SPECIALITES
+    ========================== -->
 
-        <!-- SERVICES -->
-        <section class="services-section">
+    <section id="specialites">
 
-            <div class="section-title">
-                <span>✨ Nos Services</span>
-                <h2>Une expérience moderne & conviviale</h2>
-            </div>
+        <div class="section-title">
 
-            <div class="services-grid">
+            <h2>Nos Spécialités</h2>
 
-                <div class="service-card">
-                    <div class="service-icon">🛵</div>
-                    <h3>Livraison disponible</h3>
-                </div>
+            <p>
+                Une cuisine généreuse pour tous les goûts.
+            </p>
 
-                <div class="service-card">
-                    <div class="service-icon">🎂</div>
-                    <h3>Réservation anniversaire</h3>
-                </div>
+        </div>
 
-                <div class="service-card">
-                    <div class="service-icon">📶</div>
-                    <h3>Wi-Fi gratuit</h3>
-                </div>
+        <div class="specialites-grid">
 
-                <div class="service-card">
-                    <div class="service-icon">💳</div>
-                    <h3>Paiement mobile accepté</h3>
-                </div>
+            <article>
+                <h3>🍕 Pizza au Feu de Bois</h3>
+                <p>Des pizzas croustillantes et savoureuses.</p>
+            </article>
 
-            </div>
+            <article>
+                <h3>🥩 Grillades</h3>
+                <p>Viandes grillées à la perfection.</p>
+            </article>
 
-        </section>
+            <article>
+                <h3>🔥 Pierrade</h3>
+                <p>Une expérience conviviale à partager.</p>
+            </article>
 
-        <!-- MENU SECTION -->
-        <section class="menu-section">
+            <article>
+                <h3>🍨 Glaces</h3>
+                <p>Des desserts gourmands et rafraîchissants.</p>
+            </article>
 
-            <!-- ENTRÉES -->
-            <div class="menu-category active-category" id="entrees">
+            <article>
+                <h3>🌍 Cuisine Africaine</h3>
+                <p>Les saveurs authentiques du terroir.</p>
+            </article>
 
-                <div class="section-title">
-                    <span>🍢 Nos Entrées</span>
-                    <h2>Entrées chaudes & gourmandes</h2>
-                </div>
+            <article>
+                <h3>🍽 Cuisine Européenne</h3>
+                <p>Des plats raffinés et généreux.</p>
+            </article>
 
-                <div class="menu-grid">
+        </div>
 
-                    <!-- ITEM -->
-                    <article class="menu-card"
-                        data-id="brochettes-boeuf"
-                        data-name="Brochettes de bœuf"
-                        data-price="2500">
+    </section>
 
-                        <div class="menu-image">
-                            <img src="blackand/espace1.jpeg" alt="">
-                        </div>
+    <!-- =========================
+         GALERIE PREMIUM
+    ========================== -->
 
-                        <div class="menu-content">
+    <section id="galerie">
 
-                            <div class="menu-top">
+        <div class="section-title">
 
-                                <div>
-                                    <h3>Brochettes de bœuf</h3>
-                                    <p>Brochettes grillées aux épices africaines</p>
-                                </div>
+            <h2>Galerie</h2>
 
-                                <div class="price">
-                                    2 500 F
-                                </div>
+            <p>
+                Découvrez l'ambiance Black & White.
+            </p>
 
-                            </div>
+        </div>
 
-                            <div class="quantity-box">
+        <div class="gallery-grid">
 
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
+            <img src="imageblack/bar 1.jpeg" alt="Restaurant">
 
-                                <span class="qty-value">
-                                    0
-                                </span>
+            <img src="imageblack/bar3.jpeg" alt="Restaurant">
 
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
+            <img src="imageblack/meilleur espace.jpeg" alt="Restaurant">
 
-                            </div>
+            <img src="imageblack/meilleur3.jpeg" alt="Pizza">
 
-                        </div>
+            <img src="imageblack/boisson1.jpeg" alt="Grillades">
 
-                    </article>
+            <img src="imageblack/nourriture.jpeg" alt="Pizza">
 
-                    <!-- ITEM -->
-                    <article class="menu-card"
-                        data-id="brochettes-poulet"
-                        data-name="Brochettes de poulet"
-                        data-price="2000">
+        </div>
 
-                        <div class="menu-image">
-                            <img src="La savane Gourmande/brochette poulet.jpg" alt="">
-                        </div>
+    </section>
 
-                        <div class="menu-content">
+    <!-- =========================
+         ESPACE BAR
+    ========================== -->
 
-                            <div class="menu-top">
+    <section id="bar">
 
-                                <div>
-                                    <h3>Brochettes de poulet</h3>
-                                    <p>Poulet tendre grillé au feu de bois</p>
-                                </div>
+        <div class="section-title">
 
-                                <div class="price">
-                                    2 000 F
-                                </div>
+            <h2>Espace Bar</h2>
 
-                            </div>
+            <p>
+                Cocktails, boissons fraîches et ambiance conviviale.
+            </p>
 
-                            <div class="quantity-box">
+        </div>
 
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
+        <div class="bar-gallery">
 
-                                <span class="qty-value">
-                                    0
-                                </span>
+            <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b" alt="Cocktail">
 
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
+            <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187" alt="Boisson">
 
-                            </div>
+            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd" alt="Bar">
 
-                        </div>
+            <img src="imageblack/bar main.jpeg" alt="Cocktail">
 
-                    </article>
+        </div>
 
-                    <!-- ITEM -->
-                    <article class="menu-card"
-                        data-id="alloco-simple"
-                        data-name="Alloco simple"
-                        data-price="1500">
+    </section>
 
-                        <div class="menu-image">
-                            <img src="imageresto/Donna Jos Sia.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Alloco simple</h3>
-                                    <p>Bananes plantain frites croustillantes</p>
-                                </div>
-
-                                <div class="price">
-                                    1 500 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                    <!-- ITEM -->
-                    <article class="menu-card"
-                        data-id="alloco-oeuf"
-                        data-name="Alloco œuf"
-                        data-price="2000">
-
-                        <div class="menu-image">
-                            <img src="imageresto/allocooeuf.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Alloco œuf</h3>
-                                    <p>Alloco accompagné d’œufs savoureux</p>
-                                </div>
-
-                                <div class="price">
-                                    2 000 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                    <!-- ITEM -->
-                    <article class="menu-card"
-                        data-id="alloco-poisson"
-                        data-name="Alloco poisson"
-                        data-price="3500">
-
-                        <div class="menu-image">
-                            <img src="imageresto/allocopoison.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Alloco poisson</h3>
-                                    <p>Poisson frit et alloco généreux</p>
-                                </div>
-
-                                <div class="price">
-                                    3 500 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                    <!-- ITEM -->
-                    <article class="menu-card"
-                        data-id="Attiéké poisson frit"
-                        data-name="Attiéké poisson frit"
-                        data-price="4000">
-
-                        <div class="menu-image">
-                            <img src="imageresto/attieke poison.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Attiéké poisson frit</h3>
-                                    <p>Attiéké poisson frit savoureux</p>
-                                </div>
-
-                                <div class="price">
-                                    4000 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                    <!-- ITEM -->
-                    <article class="menu-card"
-                        data-id="Salade composée"
-                        data-name="Salade composée"
-                        data-price="3000">
-
-                        <div class="menu-image">
-                            <img src="imageresto/avocat.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Salade composée</h3>
-                                    <p>Salade fraîche variée équilibrée</p>
-                                </div>
-
-                                <div class="price">
-                                    3000 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                    <!-- ITEM -->
-                    <article class="menu-card"
-                        data-id="Salade avocat crevette"
-                        data-name="Salade avocat crevette"
-                        data-price="4500">
-
-                        <div class="menu-image">
-                            <img src="imageresto/Salade avocat aux crevettes.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Salade avocat crevette</h3>
-                                    <p>Salade fraîche avocat crevettes douce et savoureuse</p>
-                                </div>
-
-                                <div class="price">
-                                    4500 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-                    
-                    <!-- ITEM -->
-                    <article class="menu-card"
-                        data-id="Nems poulet (6 pièces)"
-                        data-name="Nems poulet (6 pièces)"
-                        data-price="3000">
-
-                        <div class="menu-image">
-                            <img src="imageresto/Cuisine asiatique maison _ Nems au poulet 😋 _ Facebook.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Nems poulet (6 pièces)</h3>
-                                    <p>Nems poulet croustillants savoureux (6 pièces)</p>
-                                </div>
-
-                                <div class="price">
-                                    3000 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-                </div>
-
-            </div>
-
-           <!-- SPÉCIALITÉS -->
-<div class="menu-category" id="les viandes">
+<section id="carte">
 
     <div class="section-title">
-        <span>🇨🇮 Spécialités ivoiriennes</span>
-        <h2>Le vrai goût du pays</h2>
+
+        <h2>Notre Carte</h2>
+
+        <p>
+            Découvrez nos spécialités Black & White.
+        </p>
+
     </div>
 
-    <div class="menu-grid">
+    <div class="menu-filters">
 
-        <!-- GARBA -->
-        <article class="menu-card advanced-card"
-            data-id="garba"
-            data-name="Garba">
+        <button class="active" data-filter="all">Tout</button>
 
-            <div class="menu-image">
-                <img src="imageresto/attieke poison.jpg" alt="">
+        <button data-filter="pizza">Pizzas</button>
+
+        <button data-filter="grillade">Grillades</button>
+
+        <button data-filter="plat">Plats</button>
+
+        <button data-filter="bar">Bar</button>
+
+    </div>
+
+    <div class="menu-items">
+
+        <!-- PIZZA 1 -->
+
+        <div class="menu-card pizza">
+
+            <div class="menu-card-image">
+
+                <span class="popular-badge">
+                    Populaire
+                </span>
+
+                <img src="imageblack/pizza.jpeg"
+                    alt="Pizza Royale">
+
             </div>
 
-            <div class="menu-content">
+            <div class="menu-card-content">
 
-                <div class="menu-top">
+                <span class="menu-card-category">
+                    Pizza
+                </span>
 
-                    <div>
-                        <h3>Garba</h3>
-                        <p>Attiéké + thon frit traditionnel</p>
-                    </div>
+                <h3>Royale</h3>
 
-                </div>
+                <p class="menu-card-description">
+                    Sauce tomate, fromage, jambon, champignons.
+                </p>
 
-                <!-- PORTIONS -->
-                <div class="portion-box">
+                <div class="menu-card-footer">
 
-                    <label>Choisir la portion</label>
+                    <span class="menu-price">
+                        6 500 FCFA
+                    </span>
 
-                    <select class="portion-select">
-
-                        <option value="1500">
-                            Garba simple — 1 500 F
-                        </option>
-
-                        <option value="2500">
-                            Garba moyen — 2 500 F
-                        </option>
-
-                        <option value="4000">
-                            Garba maxi — 4 000 F
-                        </option>
-
-                    </select>
-
-                </div>
-
-                <!-- SUPPLÉMENTS -->
-                <div class="extras-section">
-
-                    <h4>Suppléments</h4>
-
-                    <div class="extra-item"
-                        data-extra-name="Thon"
-                        data-extra-price="1000">
-
-                        <span>
-                            Thon — 1 000 F
-                        </span>
-
-                        <div class="quantity-box small">
-
-                            <button class="qty-btn extra-minus">
-                                -
-                            </button>
-
-                            <span class="extra-value">
-                                0
-                            </span>
-
-                            <button class="qty-btn extra-plus">
-                                +
-                            </button>
-
-                        </div>
-
-                    </div>
-
-                    <div class="extra-item"
-                        data-extra-name="Tomate/oignon"
-                        data-extra-price="500">
-
-                        <span>
-                            Tomate/oignon — 500 F
-                        </span>
-
-                        <div class="quantity-box small">
-
-                            <button class="qty-btn extra-minus">
-                                -
-                            </button>
-
-                            <span class="extra-value">
-                                0
-                            </span>
-
-                            <button class="qty-btn extra-plus">
-                                +
-                            </button>
-
-                        </div>
-
-                    </div>
-
-                    <div class="extra-item"
-                        data-extra-name="Attiéké"
-                        data-extra-price="500">
-
-                        <span>
-                            Attiéké — 500 F
-                        </span>
-
-                        <div class="quantity-box small">
-
-                            <button class="qty-btn extra-minus">
-                                -
-                            </button>
-
-                            <span class="extra-value">
-                                0
-                            </span>
-
-                            <button class="qty-btn extra-plus">
-                                +
-                            </button>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- QUANTITY -->
-                <div class="bottom-card-actions">
-
-                    <div class="live-price">
-                        1 500 F
-                    </div>
-
-                    <div class="quantity-box">
-
-                        <button class="qty-btn product-minus">
-                            -
-                        </button>
-
-                        <span class="product-qty">
-                            0
-                        </span>
-
-                        <button class="qty-btn product-plus">
-                            +
-                        </button>
-
-                    </div>
+                    <a href="tel:+22505926080" class="menu-order">
+                        Commander
+                    </a>
 
                 </div>
 
             </div>
 
-        </article>
+        </div>
 
-        <!-- POULET BRAISÉ -->
-        <article class="menu-card advanced-card"
-            data-id="poulet-braise"
-            data-name="Poulet braisé">
+        <!-- PIZZA 2 -->
 
-            <div class="menu-image">
-                <img src="imageresto/poulet.jpg" alt="">
+        <div class="menu-card pizza">
+
+            <div class="menu-card-image">
+
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591"
+                    alt="Pizza Fruits de Mer">
+
             </div>
 
-            <div class="menu-content">
+            <div class="menu-card-content">
 
-                <div class="menu-top">
+                <span class="menu-card-category">
+                    Pizza
+                </span>
 
-                    <div>
-                        <h3>Poulet braisé</h3>
-                        <p>Poulet braisé au charbon traditionnel</p>
-                    </div>
+                <h3>tagliatelles aux Fruits de Mer</h3>
 
-                </div>
+                <p class="menu-card-description">
+                    Garniture généreuse aux fruits de mer et fromage fondant.
+                </p>
 
-                <!-- PORTIONS -->
-                <div class="portion-box">
+                <div class="menu-card-footer">
 
-                    <label>Choisir la portion</label>
+                    <span class="menu-price">
+                        7 500 FCFA
+                    </span>
 
-                    <select class="portion-select">
-
-                        <option value="1500">
-                            Quart — 1 500 F
-                        </option>
-
-                        <option value="3000">
-                            Demi — 3 000 F
-                        </option>
-
-                        <option value="6000">
-                            Entier — 6 000 F
-                        </option>
-
-                    </select>
-
-                </div>
-
-                <!-- FREE SIDES -->
-                <div class="included-section">
-
-                    <h4>Accompagnements inclus</h4>
-
-                    <div class="checkbox-grid">
-
-                        <label class="check-item">
-                            <input type="checkbox" value="Attiéké">
-                            <span>Attiéké</span>
-                        </label>
-
-                        <label class="check-item">
-                            <input type="checkbox" value="Alloco">
-                            <span>Alloco</span>
-                        </label>
-
-                        <label class="check-item">
-                            <input type="checkbox" value="Frites">
-                            <span>Frites</span>
-                        </label>
-
-                        <label class="check-item">
-                            <input type="checkbox" value="Riz">
-                            <span>Riz</span>
-                        </label>
-
-                        <label class="check-item">
-                            <input type="checkbox" value="Banane braisée">
-                            <span>Banane braisée</span>
-                        </label>
-
-                    </div>
-
-                </div>
-
-                <!-- SUPPLÉMENTS -->
-                <div class="extras-section">
-
-                    <h4>Suppléments</h4>
-
-                    <div class="extra-item"
-                        data-extra-name="Portion attiéké"
-                        data-extra-price="500">
-
-                        <span>
-                            Portion attiéké — 500 F
-                        </span>
-
-                        <div class="quantity-box small">
-
-                            <button class="qty-btn extra-minus">
-                                -
-                            </button>
-
-                            <span class="extra-value">
-                                0
-                            </span>
-
-                            <button class="qty-btn extra-plus">
-                                +
-                            </button>
-
-                        </div>
-
-                    </div>
-
-                    <div class="extra-item"
-                        data-extra-name="Portion alloco"
-                        data-extra-price="1000">
-
-                        <span>
-                            Portion alloco — 1 000 F
-                        </span>
-
-                        <div class="quantity-box small">
-
-                            <button class="qty-btn extra-minus">
-                                -
-                            </button>
-
-                            <span class="extra-value">
-                                0
-                            </span>
-
-                            <button class="qty-btn extra-plus">
-                                +
-                            </button>
-
-                        </div>
-
-                    </div>
-
-                    <div class="extra-item"
-                        data-extra-name="Fromage fondu"
-                        data-extra-price="1000">
-
-                        <span>
-                            Fromage fondu — 1 000 F
-                        </span>
-
-                        <div class="quantity-box small">
-
-                            <button class="qty-btn extra-minus">
-                                -
-                            </button>
-
-                            <span class="extra-value">
-                                0
-                            </span>
-
-                            <button class="qty-btn extra-plus">
-                                +
-                            </button>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- QUANTITY -->
-                <div class="bottom-card-actions">
-
-                    <div class="live-price">
-                        1 500 F
-                    </div>
-
-                    <div class="quantity-box">
-
-                        <button class="qty-btn product-minus">
-                            -
-                        </button>
-
-                        <span class="product-qty">
-                            0
-                        </span>
-
-                        <button class="qty-btn product-plus">
-                            +
-                        </button>
-
-                    </div>
+                    <a href="tel:+22505926080" class="menu-order">
+                        Commander
+                    </a>
 
                 </div>
 
             </div>
 
-        </article>
+        </div>
 
-        <!-- TILAPIA -->
-        <article class="menu-card advanced-card"
-            data-id="tilapia"
-            data-name="Tilapia braisé">
+        <!-- GRILLADE 1 -->
 
-            <div class="menu-image">
-                <img src="imageresto/TILAPIA.jpg" alt="">
+        <div class="menu-card grillade">
+
+            <div class="menu-card-image">
+
+                <span class="popular-badge">
+                    Best Seller
+                </span>
+
+                <img src="imageblack/poulet braisée.jpeg"
+                    alt="Poulet Braisé">
+
             </div>
 
-            <div class="menu-content">
+            <div class="menu-card-content">
 
-                <div class="menu-top">
+                <span class="menu-card-category">
+                    Grillade
+                </span>
 
-                    <div>
-                        <h3>Tilapia braisé</h3>
-                        <p>Poisson braisé accompagné à volonté</p>
-                    </div>
+                <h3>Poulet Braisé</h3>
 
-                </div>
+                <p class="menu-card-description">
+                    Poulet braisé accompagné Alloco ou attiéké… et bien plus encore à découvrir.
+                </p>
 
-                <div class="portion-box">
+                <div class="menu-card-footer">
 
-                    <label>Choisir la taille</label>
+                    <span class="menu-price">
+                        10 000 FCFA
+                    </span>
 
-                    <select class="portion-select">
-
-                        <option value="4000">
-                            Petit — 4 000 F
-                        </option>
-
-                        <option value="6000">
-                            Moyen — 6 000 F
-                        </option>
-
-                        <option value="8000">
-                            Grand — 8 000 F
-                        </option>
-
-                    </select>
-
-                </div>
-
-                <div class="included-section">
-
-                    <h4>Accompagnements inclus</h4>
-
-                    <div class="checkbox-grid">
-
-                        <label class="check-item">
-                            <input type="checkbox" value="Attiéké">
-                            <span>Attiéké</span>
-                        </label>
-
-                        <label class="check-item">
-                            <input type="checkbox" value="Alloco">
-                            <span>Alloco</span>
-                        </label>
-
-                        <label class="check-item">
-                            <input type="checkbox" value="Riz">
-                            <span>Riz</span>
-                        </label>
-
-                    </div>
-
-                </div>
-
-                <div class="bottom-card-actions">
-
-                    <div class="live-price">
-                        4 000 F
-                    </div>
-
-                    <div class="quantity-box">
-
-                        <button class="qty-btn product-minus">
-                            -
-                        </button>
-
-                        <span class="product-qty">
-                            0
-                        </span>
-
-                        <button class="qty-btn product-plus">
-                            +
-                        </button>
-
-                    </div>
+                    <a href="tel:+22505926080" class="menu-order">
+                        Commander
+                    </a>
 
                 </div>
 
             </div>
 
-        </article>
+        </div>
+
+        <!-- GRILLADE 2 -->
+
+        <div class="menu-card grillade">
+
+            <div class="menu-card-image">
+
+                <img src="https://images.unsplash.com/photo-1558030006-450675393462"
+                    alt="Brochettes">
+
+            </div>
+
+            <div class="menu-card-content">
+
+                <span class="menu-card-category">
+                    Grillade
+                </span>
+
+                <h3>Brochettes de Boeuf grillé</h3>
+
+                <p class="menu-card-description">
+                    Brochettes grillées servies avec accompagnement au choix.
+                </p>
+
+                <div class="menu-card-footer">
+
+                    <span class="menu-price">
+                        7 000 FCFA
+                    </span>
+
+                    <a href="tel:+22505926080" class="menu-order">
+                        Commander
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- PLAT AFRICAIN -->
+
+        <div class="menu-card plat">
+
+            <div class="menu-card-image">
+
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+                    alt="Kedjenou">
+
+            </div>
+
+            <div class="menu-card-content">
+
+                <span class="menu-card-category">
+                    Plat Africain
+                </span>
+
+                <h3>Kedjenou</h3>
+
+                <p class="menu-card-description">
+                    Poulet kedjenou traditionnel préparé selon la recette ivoirienne.
+                </p>
+
+                <div class="menu-card-footer">
+
+                    <span class="menu-price">
+                        10 000 FCFA
+                    </span>
+
+                    <a href="tel:+22505926080" class="menu-order">
+                        Commander
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- PLAT AFRICAIN 2 -->
+
+        <div class="menu-card plat">
+
+            <div class="menu-card-image">
+
+                <img src="imageblack/TILAPIA.jpg"
+                    alt="Attiéké Poisson">
+
+            </div>
+
+            <div class="menu-card-content">
+
+                <span class="menu-card-category">
+                    Plat Africain
+                </span>
+
+                <h3>Poisson </h3>
+
+                <p class="menu-card-description">
+                    Attiéké accompagné de poisson grillé.
+                </p>
+
+                <div class="menu-card-footer">
+
+                    <span class="menu-price">
+                        8 000 FCFA
+                    </span>
+
+                    <a href="tel:+22505926080" class="menu-order">
+                        Commander
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- BAR 1 -->
+
+        <div class="menu-card bar">
+
+            <div class="menu-card-image">
+
+                <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b"
+                    alt="Mojito">
+
+            </div>
+
+            <div class="menu-card-content">
+
+                <span class="menu-card-category">
+                    Cocktail
+                </span>
+
+                <h3>BLACK & WHITE</h3>
+
+                <p class="menu-card-description">
+                    Cocktail rafraîchissant à la menthe fraîche.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- BAR 2 -->
+
+        <div class="menu-card bar">
+
+            <div class="menu-card-image">
+
+                <img src="https://images.unsplash.com/photo-1566633806327-68e152aaf26d"
+                    alt="Heineken">
+
+            </div>
+
+            <div class="menu-card-content">
+
+                <span class="menu-card-category">
+                    Boisson
+                </span>
+
+                <h3>BLACK & WHITE</h3>
+
+                <p class="menu-card-description">
+                    Bière fraîche servie bien glacée.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    <!-- =========================
+         TEMOIGNAGES
+    ========================== -->
+
+    <section id="avis">
+
+        <div class="section-title">
+
+            <h2>Avis Clients</h2>
+
+        </div>
+
+        <div class="testimonial-slider">
+
+            <div class="testimonial">
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>Excellent service et très bonne cuisine.</p>
+                <strong>Client</strong>
+            </div>
+
+            <div class="testimonial">
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>La meilleure pizza de Bouaké.</p>
+                <strong>Client</strong>
+            </div>
+
+            <div class="testimonial">
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>Très belle ambiance pour sortir entre amis.</p>
+                <strong>Client</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         LOCALISATION
+    ========================== -->
+
+    <section id="localisation">
+
+        <div class="section-title">
+
+            <h2>Nous Trouver</h2>
+
+            <p>
+                Bouaké, Côte d'Ivoire
+            </p>
+
+        </div>
+
+        <div class="map-container">
+
+            <div class="map-placeholder">
+
+                Carte Google Maps
+
+            </div>
+
+            <a href="https://share.google/w6neAoPN3Ntlb9t4W" class="gps-button">
+
+                Obtenir l'itinéraire
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section id="contact">
+
+        <div class="section-title">
+
+            <h2>Contact & Réservation</h2>
+
+        </div>
+
+        <div class="contact-buttons">
+
+            <a href="tel:+22505926080">
+                📞 05 92 60 80
+            </a>
+
+            <a href="tel:+22507302215">
+                📞 07 30 22 15
+            </a>
+
+        </div>
+
+        <div class="air-conditioned">
+
+            ❄️ Salles Climatisées Disponibles
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         WHATSAPP FLOTTANT
+    ========================== -->
+
+    <a href="#" id="whatsapp-button">
+
+        WhatsApp
+
+    </a>
+
+    <!-- =========================
+         LIGHTBOX
+    ========================== -->
+
+    <div id="lightbox">
+
+        <span id="close-lightbox">
+            ×
+        </span>
+
+        <img id="lightbox-image" src="" alt="Image agrandie">
+
+    </div>
+
+    <div class="promo-studio">
+
+    <h2>HNS CORPORATE STUDIO</h2>
+
+    <p>Création de sites web professionnels, modernes et performants pour votre business.</p>
+
+    <div class="promo-buttons">
+
+        <!-- WHATSAPP -->
+        <a href="https://wa.me/2250151030957?text=Bonjour%20je%20veux%20un%20site%20professionnel" 
+           target="_blank" 
+           class="promo-btn whatsapp">
+
+            📲 WhatsApp
+
+        </a>
+
+        <!-- SITE WEB -->
+        <a href="https://hnxcorporatestudio-ctrl.github.io/hns-corporate-studio/" 
+           target="_blank" 
+           class="promo-btn website">
+
+            🌐 Site Web
+
+        </a>
 
     </div>
 
 </div>
 
-            <!-- GRILLADES -->
-            <div class="menu-category" id="les spécialités africaines">
+    <!-- =========================
+         FOOTER
+    ========================== -->
 
-                <div class="section-title">
-                    <span>🔥 Nos Grillades</span>
-                    <h2>Braisé & saveurs au feu de bois</h2>
-                </div>
+    <footer>
 
-                <div class="menu-grid">
+    <h3>BLACK & WHITE</h3>
 
-                    <article class="menu-card"
-                        data-id="choukouya-boeuf"
-                        data-name="Choukouya Bœuf"
-                        data-price="4000">
+    <p>Maquis Restaurant • Pizzeria • Bar</p>
 
-                        <div class="menu-image">
-                            <img src="imageresto/CHOUKOUYA.jpg" alt="">
-                        </div>
+    <p>Bouaké - Côte d'Ivoire</p>
 
-                        <div class="menu-content">
+    <p>📞 05 92 60 80 | 07 30 22 15</p>
 
-                            <div class="menu-top">
+    <!-- RÉSEAUX SOCIAUX -->
+    <div class="footer-socials">
 
-                                <div>
-                                    <h3>Choukouya Bœuf</h3>
-                                    <p>Viande grillée épicée et tendre</p>
-                                </div>
+        <a href="https://www.facebook.com/profile.php?id=61590489272403" target="_blank" class="social facebook">Facebook</a>
 
-                                <div class="price">
-                                    4 000 F
-                                </div>
+        <a href="https://www.instagram.com/blackandwhitebouake?utm_source=qr&igsh=MXA0aGI1aW1qYnhvZA==" target="_blank" class="social instagram">Instagram</a>
 
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                    <article class="menu-card"
-                        data-id="capitaine"
-                        data-name="Capitaine braisé"
-                        data-price="7500">
-
-                        <div class="menu-image">
-                            <img src="imageresto/faris fesh.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Capitaine braisé</h3>
-                                    <p>Poisson braisé premium</p>
-                                </div>
-
-                                <div class="price">
-                                    7 500 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-            <!-- INTERNATIONAUX -->
-            <div class="menu-category" id="les pizzas et les plats italiens">
-
-                <div class="section-title">
-                    <span>🍝 Internationaux</span>
-                    <h2>Des recettes du monde entier</h2>
-                </div>
-
-                <div class="menu-grid">
-
-                    <article class="menu-card"
-                        data-id="spaghetti"
-                        data-name="Spaghetti bolognaise"
-                        data-price="4500">
-
-                        <div class="menu-image">
-                            <img src="La savane Gourmande/spaghetti.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Spaghetti bolognaise</h3>
-                                    <p>Pâtes gourmandes à la sauce maison</p>
-                                </div>
-
-                                <div class="price">
-                                    4 500 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                    <article class="menu-card advanced-card"
-                        data-id="burger-classique"
-                        data-name="Burger classique">
-
-                        <div class="menu-image">
-                            <img src="La savane Gourmande/burger.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Burger classique</h3>
-                                    <p>Burger généreux et frites croustillantes</p>
-                                </div>
-
-                            </div>
-
-                            <div class="live-price">
-                                4 500 F
-                            </div>
-
-                            <div class="extras-section">
-
-                                <h4>Suppléments burger</h4>
-
-                                <div class="extra-item"
-                                    data-extra-name="Fromage"
-                                    data-extra-price="500">
-
-                                    <span>
-                                        Fromage — 500 F
-                                    </span>
-
-                                    <div class="quantity-box small">
-
-                                        <button class="qty-btn minus extra-minus">
-                                            -
-                                        </button>
-
-                                        <span class="qty-value extra-value">
-                                            0
-                                        </span>
-
-                                        <button class="qty-btn plus extra-plus">
-                                            +
-                                        </button>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="extra-item"
-                                    data-extra-name="Steak supplémentaire"
-                                    data-extra-price="1500">
-
-                                    <span>
-                                        Steak supplémentaire — 1 500 F
-                                    </span>
-
-                                    <div class="quantity-box small">
-
-                                        <button class="qty-btn minus extra-minus">
-                                            -
-                                        </button>
-
-                                        <span class="qty-value extra-value">
-                                            0
-                                        </span>
-
-                                        <button class="qty-btn plus extra-plus">
-                                            +
-                                        </button>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-            <!-- ACCOMPAGNEMENTS -->
-            <div class="menu-category" id="accompagnements">
-
-                <div class="section-title">
-                    <span>🍚 Accompagnements</span>
-                    <h2>À ajouter selon vos envies</h2>
-                </div>
-
-                <div class="menu-grid">
-
-                    <article class="menu-card"
-                        data-id="attieke"
-                        data-name="Attiéké"
-                        data-price="500">
-
-                        <div class="menu-image">
-                            <img src="imageresto/attieke.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Attiéké</h3>
-                                    <p>Semoule de manioc traditionnelle</p>
-                                </div>
-
-                                <div class="price">
-                                    500 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                    <article class="menu-card"
-                        data-id="frites"
-                        data-name="Frites"
-                        data-price="1000">
-
-                        <div class="menu-image">
-                            <img src="La savane Gourmande/frite.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Frites</h3>
-                                    <p>Frites dorées et croustillantes</p>
-                                </div>
-
-                                <div class="price">
-                                    1 000 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                    <article class="menu-card"
-                        data-id="Alloco"
-                        data-name="Alloco"
-                        data-price="1000">
-
-                        <div class="menu-image">
-                            <img src="imageresto/Donna Jos Sia.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Alloco</h3>
-                                    <p>Alloco banane plantain frit croustillant</p>
-                                </div>
-
-                                <div class="price">
-                                    1 000 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                    <article class="menu-card"
-                        data-id="Riz blanc"
-                        data-name="Riz blanc"
-                        data-price="500">
-
-                        <div class="menu-image">
-                            <img src="imageresto/riz.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Riz blanc</h3>
-                                    <p>Riz blanc nature moelleux simple</p>
-                                </div>
-
-                                <div class="price">
-                                    500 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-            <!-- DESSERTS -->
-            <div class="menu-category" id="les desserts maison">
-
-                <div class="section-title">
-                    <span>🍰 Desserts</span>
-                    <h2>La touche sucrée parfaite</h2>
-                </div>
-
-                <div class="menu-grid">
-
-                    <article class="menu-card"
-                        data-id="degue"
-                        data-name="Dégué"
-                        data-price="2000">
-
-                        <div class="menu-image">
-                            <img src="imageresto/Degué Africa love.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Dégué</h3>
-                                    <p>Dessert africain frais et délicieux</p>
-                                </div>
-
-                                <div class="price">
-                                    2 000 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-            <!-- BOISSONS -->
-            <div class="menu-category" id="boissons">
-
-                <div class="section-title">
-                    <span>🥤 Boissons fraîches</span>
-                    <h2>Fraîcheur & plaisir</h2>
-                </div>
-
-                <div class="menu-grid">
-
-                    <article class="menu-card"
-                        data-id="coca"
-                        data-name="Coca-Cola 33cl"
-                        data-price="1000">
-
-                        <div class="menu-image">
-                            <img src="imageresto/Chill & Zesty_ Coca-Cola Splash Refreshment ❄🍋.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Coca-Cola 33cl</h3>
-                                    <p>Boisson fraîche gazeuse</p>
-                                </div>
-
-                                <div class="price">
-                                    1 000 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                    <article class="menu-card"
-                        data-id="bissap"
-                        data-name="Jus de bissap"
-                        data-price="1500">
-
-                        <div class="menu-image">
-                            <img src="imageresto/Bissap - African Food Network.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Jus de bissap</h3>
-                                    <p>Boisson africaine naturelle</p>
-                                </div>
-
-                                <div class="price">
-                                    1 500 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-            <!-- BIÈRES -->
-            <div class="menu-category" id="bieres">
-
-                <div class="section-title">
-                    <span>🍺 Bières</span>
-                    <h2>Bières locales & internationales</h2>
-                </div>
-
-                <div class="menu-grid">
-
-                    <article class="menu-card"
-                        data-id="castel"
-                        data-name="Castel"
-                        data-price="1500">
-
-                        <div class="menu-image">
-                            <img src="La savane Gourmande/castel.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Castel</h3>
-                                    <p>Bière fraîche ivoirienne</p>
-                                </div>
-
-                                <div class="price">
-                                    1 500 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-            <!-- VINS -->
-            <div class="menu-category" id="les vins de france">
-
-                <div class="section-title">
-                    <span>🍷 Vins</span>
-                    <h2>Une sélection raffinée</h2>
-                </div>
-
-                <div class="menu-grid">
-
-                    <article class="menu-card"
-                        data-id="bordeaux"
-                        data-name="Bordeaux"
-                        data-price="18000">
-
-                        <div class="menu-image">
-                            <img src="La savane Gourmande/vin.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Bordeaux</h3>
-                                    <p>Vin rouge élégant</p>
-                                </div>
-
-                                <div class="price">
-                                    18 000 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-            <!-- CAFÉS -->
-            <div class="menu-category" id="les glaces">
-
-                <div class="section-title">
-                    <span>☕ Cafés & boissons chaudes</span>
-                    <h2>Douceur & chaleur</h2>
-                </div>
-
-                <div class="menu-grid">
-
-                    <article class="menu-card"
-                        data-id="espresso"
-                        data-name="Café espresso"
-                        data-price="1500">
-
-                        <div class="menu-image">
-                            <img src="La savane Gourmande/espresso.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Café espresso</h3>
-                                    <p>Espresso intense et parfumé</p>
-                                </div>
-
-                                <div class="price">
-                                    1 500 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-            <!-- MENU ENFANT -->
-            <div class="menu-category" id="Le bar">
-
-                <div class="section-title">
-                    <span>L’Expérience Bar Black and White</span>
-                    <h2>Bar Black and White : un espace chic et convivial pour vos moments de détente.</h2>
-                </div>
-
-                <div class="menu-grid">
-
-                    <article class="menu-card"
-                        data-id="mini-burger"
-                        data-name="Mini burger + frites + jus"
-                        data-price="3500">
-
-                        <div class="menu-image">
-                            <img src="blackand/bar1.jpeg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Espace Détente</h3>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-                <div class="menu-grid">
-
-                    <article class="menu-card"
-                        data-id="mini-burger"
-                        data-name="Mini burger + frites + jus"
-                        data-price="3500">
-
-                        <div class="menu-image">
-                            <img src="blackand/bar2.jpeg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Espace Détente</h3>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-            <!-- FORMULES -->
-            <div class="menu-category" id="formules">
-
-                <div class="section-title">
-                    <span>✨ Formules spéciales</span>
-                    <h2>Offres exclusives</h2>
-                </div>
-
-                <div class="menu-grid">
-
-                    <article class="menu-card"
-                        data-id="formule-midi"
-                        data-name="Formule Midi"
-                        data-price="6500">
-
-                        <div class="menu-image">
-                            <img src="imageresto/menumidi.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Formule Midi</h3>
-                                    <p>Plat + Boisson + Dessert</p>
-                                </div>
-
-                                <div class="price">
-                                    6 500 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                    <article class="menu-card"
-                        data-id="formule-couple"
-                        data-name="Formule Couple"
-                        data-price="25000">
-
-                        <div class="menu-image">
-                            <img src="imageresto/menumidi2.jpg" alt="">
-                        </div>
-
-                        <div class="menu-content">
-
-                            <div class="menu-top">
-
-                                <div>
-                                    <h3>Formule Couple</h3>
-                                    <p>2 plats + 2 boissons + dessert</p>
-                                </div>
-
-                                <div class="price">
-                                    25 000 F
-                                </div>
-
-                            </div>
-
-                            <div class="quantity-box">
-
-                                <button class="qty-btn minus">
-                                    -
-                                </button>
-
-                                <span class="qty-value">
-                                    0
-                                </span>
-
-                                <button class="qty-btn plus">
-                                    +
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <!-- HOURS -->
-        <section class="hours-section">
-
-            <div class="hours-card">
-
-                <div class="hours-icon">
-                    🕒
-                </div>
-
-                <div>
-                    <h3>Ouvert du Mardi au Dimanche</h3>
-                    <p>Service du Midi : 10h00 – 15h00</p>
-                    <p>Service du Soir : 18h30 – 23h00</p>
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-
-    <!-- CART BAR -->
-    <div class="cart-bar">
-
-        <button class="cart-btn left-btn" id="openCart">
-
-            👁️ Voir ma commande
-            <span class="cart-count" id="cartCount">
-                0
-            </span>
-
-        </button>
-
-        <div class="cart-total" id="cartTotal">
-            Total : 0 F
-        </div>
-
-        <button class="send-btn" id="sendOrder">
-            🟢 Envoyer
-        </button>
+        <a href="https://www.tiktok.com/@lee.roy636?_r=1&_t=ZS-974UdRdj5VK" target="_blank" class="social tiktok">TikTok</a>
 
     </div>
 
-    <!-- MODAL -->
-    <div class="modal-overlay" id="cartModal">
+    <p>© 2026 Tous droits réservés</p>
 
-        <div class="modal">
-
-            <div class="modal-header">
-
-                <div>
-                    <h2>🛒 Votre commande</h2>
-                    <p>Résumé complet de votre sélection</p>
-                </div>
-
-                <button class="close-modal" id="closeModal">
-                    ✕
-                </button>
-
-            </div>
-
-            <div class="modal-body">
-
-                <div class="order-list" id="orderList">
-
-                    <div class="empty-cart">
-
-                        <div class="empty-icon">
-                            🍽️
-                        </div>
-
-                        <h3>Aucune commande</h3>
-
-                        <p>
-                            Ajoutez des plats pour commencer votre commande.
-                        </p>
-
-                    </div>
-
-                </div>
-
-                <div class="table-section">
-
-                    <label for="tableNumber">
-                        🪑 Numéro de table
-                    </label>
-
-                    <input
-                        type="text"
-                        id="tableNumber"
-                        placeholder="Exemple : 07"
-                    >
-
-                </div>
-
-                <div class="modal-total">
-
-                    <span>Total Général</span>
-
-                    <strong id="modalTotal">
-                        0 F
-                    </strong>
-
-                </div>
-
-            </div>
-
-            <div class="modal-footer">
-
-                <button class="clear-btn" id="clearCart">
-                    🗑️ Vider
-                </button>
-
-                <button class="close-btn" id="closeCartBtn">
-                    Fermer
-                </button>
-
-            </div>
-
-        </div>
-
-    </div>
-
-    <!-- TOAST -->
-    <div class="toast" id="toast">
-        Message
-    </div>
-
-    <!-- JS -->
-    <script src="white.js"></script>
+</footer>
 
 </body>
+ <script src="blackandwhite.js"></script>
 </html>
+
